@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [kfzteile24 test]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Registration Test(failed)" verbose="0">
+    <classes>
+      <class name="tests.SearchTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="driverClose"/>
+          <include name="UserCanSearchForServiceInSalonSuccessfully"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.SearchTest -->
+    </classes>
+  </test> <!-- Registration Test(failed) -->
+</suite> <!-- Failed suite [kfzteile24 test] -->
