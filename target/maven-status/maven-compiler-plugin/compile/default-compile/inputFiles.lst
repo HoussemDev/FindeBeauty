@@ -1,2 +1,5 @@
-/home/houssem/IdeaProjects/FindeBeautyTAF/src/main/java/pages/HomePage.java
-/home/houssem/IdeaProjects/FindeBeautyTAF/src/main/java/pages/PageBase.java
+/home/houssem/IdeaProjects/sicid/src/main/java/pages/PageBase.java
+/home/houssem/IdeaProjects/sicid/src/main/java/pages/AttoPage.java
+/home/houssem/IdeaProjects/sicid/src/main/java/pages/DatiAttoPage.java
+/home/houssem/IdeaProjects/sicid/src/main/java/pages/LoginPage.java
+/home/houssem/IdeaProjects/sicid/src/main/java/pages/VerficaPage.java

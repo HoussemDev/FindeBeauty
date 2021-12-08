@@ -2,90 +2,31 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-30T16:10:07 CEST" name="kfzteile24 test" finished-at="2020-08-30T16:10:31 CEST" duration-ms="23667">
+  <suite started-at="2021-12-08T19:55:38 CET" name="E2E test" finished-at="2021-12-08T19:55:49 CET" duration-ms="10490">
     <groups>
     </groups>
-    <test started-at="2020-08-30T16:10:07 CEST" name="Registration Test" finished-at="2020-08-30T16:10:31 CEST" duration-ms="23667">
-      <class name="tests.SearchTest">
-        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:tests.SearchTest@f79e]" started-at="2020-08-30T16:10:07 CEST" name="startDriver" finished-at="2020-08-30T16:10:16 CEST" duration-ms="8362" status="PASS">
+    <test started-at="2021-12-08T19:55:38 CET" name="Registration Test" finished-at="2021-12-08T19:55:49 CET" duration-ms="10490">
+      <class name="tests.VerificaTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:tests.VerificaTest@e4487af]" started-at="2021-12-08T19:55:38 CET" name="startDriver" finished-at="2021-12-08T19:55:40 CET" duration-ms="2058" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method signature="UserCanSearchForServiceInSalonSuccessfully()[pri:1, instance:tests.SearchTest@f79e]" started-at="2020-08-30T16:10:16 CEST" name="UserCanSearchForServiceInSalonSuccessfully" finished-at="2020-08-30T16:10:31 CEST" duration-ms="14832" status="PASS">
+        <test-method signature="UserCanCompleteWorkflowSuccessfully()[pri:1, instance:tests.VerificaTest@e4487af]" started-at="2021-12-08T19:55:40 CET" name="UserCanCompleteWorkflowSuccessfully" finished-at="2021-12-08T19:55:49 CET" duration-ms="8232" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- UserCanSearchForServiceInSalonSuccessfully -->
-        <test-method is-config="true" signature="driverClose()[pri:0, instance:tests.SearchTest@f79e]" started-at="2020-08-30T16:10:31 CEST" name="driverClose" finished-at="2020-08-30T16:10:31 CEST" duration-ms="401" status="PASS">
+        </test-method> <!-- UserCanCompleteWorkflowSuccessfully -->
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:tests.VerificaTest@e4487af]" started-at="2021-12-08T19:55:49 CET" name="driverClose" finished-at="2021-12-08T19:55:49 CET" duration-ms="113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverClose -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@f79e]" started-at="2020-08-30T16:10:31 CEST" name="tearDown" finished-at="2020-08-30T16:10:31 CEST" duration-ms="59" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connection
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'houssem-Lenovo', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-42-generic', java.version: '11.0.8'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 6805, moz:profile: /tmp/rust_mozprofileUuX8VC, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.4.0-42-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 71135d0a-22fc-43d7-b9ee-b0280d0c5ad5]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'houssem-Lenovo', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-42-generic', java.version: '11.0.8'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 6805, moz:profile: /tmp/rust_mozprofileUuX8VC, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.4.0-42-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 71135d0a-22fc-43d7-b9ee-b0280d0c5ad5
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
-at tests.TestBase.tearDown(TestBase.java:45)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:369)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.SearchTest -->
+      </class> <!-- tests.VerificaTest -->
     </test> <!-- Registration Test -->
-  </suite> <!-- kfzteile24 test -->
+  </suite> <!-- E2E test -->
 </testng-results>
